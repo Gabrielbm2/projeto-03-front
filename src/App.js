@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://35.170.200.125:8000/';
+const API_BASE_URL = 'http://35.170.200.125:8000';
 
 function App() {
   const [products, setProducts] = useState([]);
